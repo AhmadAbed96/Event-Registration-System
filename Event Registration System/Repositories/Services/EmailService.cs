@@ -11,8 +11,6 @@ namespace EventRegistrationSystem.Repositories.Services
         private readonly IConfiguration configuration;
         private readonly MailjetClient mailjetClient;
 
-
-
         public EmailService(IConfiguration Configuration)
         {
             configuration = Configuration;
